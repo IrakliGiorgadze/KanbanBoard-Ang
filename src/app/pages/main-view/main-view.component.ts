@@ -25,13 +25,7 @@ export class MainViewComponent implements OnInit {
       "Technical Requirements",
       "Infrastructure Sizing"
     ]),
-    new Column("Done", [
-      'Get up',
-      'Brush teeth',
-      'Take a shower',
-      'Check e-mail',
-      'Walk dog'
-    ]),
+    new Column("Done", []),
   ]);
 
   ngOnInit(): void {
